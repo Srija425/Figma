@@ -1,0 +1,108 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        padding: 32px;
+        gap: 60px;
+    }
+
+    .marketing-section h2 {
+        font-size: 42px;
+    }
+
+    .circle-logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    .mobile-view {
+        right: -60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 24px;
+        gap: 40px;
+    }
+
+    .marketing-section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .marketing-section p {
+        margin-bottom: 32px;
+    }
+
+    .mobile-view {
+        right: -40px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .login-section {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .marketing-section {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .marketing-section h2,
+    .marketing-section p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .circle-logo {
+        position: static;
+        margin: 0 auto 32px;
+    }
+
+    .desktop-preview {
+        margin: 40px auto 0;
+    }
+
+    .mobile-view {
+        right: -20px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0;
+    }
+
+    .login-card {
+        border-radius: 0;
+    }
+
+    .marketing-section h2 {
+        font-size: 28px;
+    }
+
+    .marketing-section p {
+        font-size: 14px;
+    }
+
+    .desktop-preview {
+        margin: 20px -20px 0;
+    }
+
+    .mobile-view {
+        width: 120px;
+        right: 0;
+    }
+}
